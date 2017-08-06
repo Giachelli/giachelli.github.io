@@ -38,7 +38,7 @@
         offset: {
             top: 100
         }
-    })
+    });
     
     $.extend($.validator.messages, {
        required: "Campo obbligatorio.",
@@ -58,7 +58,7 @@
        range: $.validator.format("Inserisci un valore compreso tra {0} e {1}."),
        max: $.validator.format("Inserisci un valore minore o uguale a {0}."),
        min: $.validator.format("Inserisci un valore maggiore o uguale a {0}.")
-});
+})
 
 }(jQuery));
 var $mcj = jQuery.noConflict(true);
