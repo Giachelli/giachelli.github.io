@@ -682,11 +682,11 @@ img::-moz-selection {
         text-align: center;
         color: #fff
     }
-    .fase2,
-    .fase3,
-    .fase4,
-    .fase5,
-    .fase6,
+    #fase2,
+    #fase3,
+    #fase4,
+    #fase5,
+    #fase6,
     .fase1 {
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -696,11 +696,11 @@ img::-moz-selection {
         padding-top: 50%;
         padding-bottom: 48%
     }
-    .fase2,
-    .fase3,
-    .fase4,
-    .fase5,
-    .fase6,
+    #fase2,
+    #fase3,
+    #fase4,
+    #fase5,
+    #fase6,
     .fase1,
     section {
         padding: 0
@@ -708,19 +708,19 @@ img::-moz-selection {
     .fase1 {
         background-image: url(../img/lensooni.002.mobile-min.png)
     }
-    .fase2 {
+    #fase2 {
         background-image: url(../img/lensooni.003.mobile-min.jpg)
     }
-    .fase3 {
+    #fase3 {
         background-image: url(../img/lensooni.004.mobile-min.jpg)
     }
-    .fase4 {
+    #fase4 {
         background-image: url(../img/lensooni.005.mobile-min.jpg)
     }
-    .fase5 {
+    #fase5 {
         background-image: url(../img/lensooni.006.mobile-min.jpg)
     }
-    .fase6 {
+    #fase6 {
         background-image: url(../img/lensooni.007.mobile-min.jpg)
     }
     .iconLens {
@@ -950,11 +950,11 @@ section h3.section-subheading {
         text-align: center;
         color: #fff
     }
-    .fase2,
-    .fase3,
-    .fase4,
-    .fase5,
-    .fase6,
+    #fase2,
+    #fase3,
+    #fase4,
+    #fase5,
+    #fase6,
     .fase1 {
         background-size: 100% 100%;
         background-attachment: fixed;
@@ -967,19 +967,19 @@ section h3.section-subheading {
     .fase1 {
         background-image: url(../img/lensooni.002-min.jpg)
     }
-    .fase2 {
+    #fase2 {
         background-image: url(../img/lensooni.003-min.jpg)
     }
-    .fase3 {
+    #fase3 {
         background-image: url(../img/lensooni.004-min.jpg)
     }
-    .fase4 {
+    #fase4 {
         background-image: url(../img/lensooni.005-min.jpg)
     }
-    .fase5 {
+    #fase5 {
         background-image: url(../img/lensooni.006-min.jpg)
     }
-    .fase6 {
+    #fase6 {
         background-image: url(../img/lensooni.007-min.jpg);
         padding-bottom: 15%
     }
@@ -1192,7 +1192,7 @@ section h3.section-subheading {
     }
 }
 
-@media (min-width:1900px) {
+@media (min-width:1200px) {
     .timeline>li {
         min-height: 170px
     }
@@ -1209,56 +1209,6 @@ section h3.section-subheading {
     }
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px
-    }
-    .header_1200 {
-        height: 95vh;
-        background-image: url(../img/lensooni.001-min.jpg);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-position: center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        text-align: center;
-        color: #fff
-    }
-    .fase1_1200 {
-        background-size: 100% 100%;
-        background-attachment: fixed;
-        background-position: center center;
-        background-image: url(../img/lensooni.002-min.jpg);
-        height: 73vh
-    }
-    .fase2_1200,
-    .fase3_1200,
-    .fase4_1200,
-    .fase5_1200,
-    .fase6_1200 {
-        height: 73vh;
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: cover
-    }
-    header .intro-text {
-        padding-top: 37%;
-        padding-bottom: 10%
-    }
-    .fase2_1200 {
-        background-image: url(../img/lensooni.003-min.jpg)
-    }
-    .fase3_1200 {
-        background-image: url(../img/lensooni.004-min.jpg)
-    }
-    .fase4_1200 {
-        background-image: url(../img/lensooni.005-min.jpg)
-    }
-    .fase5_1200 {
-        background-image: url(../img/lensooni.006-min.jpg)
-    }
-    .fase6_1200 {
-        background-image: url(../img/lensooni.007-min.jpg);
-        padding-bottom: 15%
     }
 }
 
