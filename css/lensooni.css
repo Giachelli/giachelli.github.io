@@ -325,7 +325,7 @@ img::-moz-selection {
         background-image: url(../img/lensooni.005.mobile-min.jpg)
     }
     .fase5 {
-        background-image: url(../img/lensooni.006.mobile-min.jpg)
+        background-image: url(../img/lensooni.006.mobile_1-min.jpg)
     }
     .fase6 {
         background-image: url(../img/lensooni.007.mobile-min.jpg)
@@ -368,6 +368,12 @@ img::-moz-selection {
     .write-inside-iscriviti {
         font-family: Rajdhani, sans-serif;
         font-weight: 500
+    }
+    .segui-blog{
+	    font-family: Rajdhani, sans-serif;
+        font-weight: 500;
+        font-size: large;
+        color:white;
     }
     .separator-char {
         font-family: Rajdhani, sans-serif;
@@ -601,7 +607,7 @@ img::-moz-selection {
     }
     .fase6 {
         background-image: url(../img/lensooni.007-min.jpg);
-        padding-bottom: 15%
+/*         padding-bottom: 15% */
     }
     .paddingLeft {
         padding-left: 8%
@@ -644,6 +650,12 @@ img::-moz-selection {
     .write-inside-iscriviti {
         font-family: Rajdhani, sans-serif;
         font-weight: 500
+    }
+    .segui-blog{
+	    font-family: Rajdhani, sans-serif;
+        font-weight: 500;
+        font-size: large;
+        color:white;
     }
     .write-inside,
     .write-inside-fase1 {
@@ -834,7 +846,7 @@ img::-moz-selection {
     }
     .fase6 {
         background-image: url(../img/lensooni.007-min.jpg);
-        padding-bottom: 15%
+/*         padding-bottom: 15% */
     }
     .paddingLeft {
         padding-left: 8%
@@ -877,6 +889,12 @@ img::-moz-selection {
     .write-inside-iscriviti {
         font-family: Rajdhani, sans-serif;
         font-weight: 500
+    }
+    .segui-blog{
+	    font-family: Rajdhani, sans-serif;
+        font-weight: 500;
+        font-size: large;
+        color:white;
     }
     .write-inside,
     .write-inside-fase1 {
@@ -1062,7 +1080,7 @@ img::-moz-selection {
     }
     .fase6 {
         background-image: url(../img/lensooni.007-min.jpg);
-        padding-bottom: 15%
+/*         padding-bottom: 15% */
     }
     .paddingLeft {
         padding-left: 8%
@@ -1105,6 +1123,12 @@ img::-moz-selection {
     .write-inside-iscriviti {
         font-family: Rajdhani, sans-serif;
         font-weight: 500
+    }
+    .segui-blog{
+	    font-family: Rajdhani, sans-serif;
+        font-weight: 500;
+        font-size: large;
+        color:white;
     }
     .write-inside,
     .write-inside-fase1 {
