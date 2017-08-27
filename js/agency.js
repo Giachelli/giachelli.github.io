@@ -12,7 +12,10 @@
     ftypes[2]='text';
     fnames[3]='BIRTHDAY';
     ftypes[3]='birthday';
-
+    fnames[5]='MMERGE5';
+    ftypes[5]='text';
+    fnames[4]='MMERGE4';
+    ftypes[4]='radio';
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);

@@ -347,6 +347,9 @@ img::-moz-selection {
     .stacco {
         padding-right: 20px
     }
+    .staccato{
+	    padding-top: 2%;
+    }
     .separator {
         background-color: #222;
         padding: 2%
@@ -631,6 +634,9 @@ img::-moz-selection {
     .stacco {
         padding-top: 5%
     }
+    .staccato{
+	    padding-top: 2%;
+    }
     .stacco-fase2 {
         padding-top: 0
     }
@@ -876,6 +882,9 @@ img::-moz-selection {
     .stacco {
         padding-top: 5%
     }
+    .staccato{
+	    padding-top: 2%;
+    }
     .stacco-fase2 {
         padding-top: 0
     }
@@ -1115,6 +1124,9 @@ img::-moz-selection {
     }
     .stacco {
         padding-top: 5%
+    }
+    .staccato{
+	    padding-top:2%;
     }
     .stacco-fase2 {
         padding-top: 0
