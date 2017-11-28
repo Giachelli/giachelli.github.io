@@ -360,6 +360,9 @@ img::-moz-selection {
         font-weight: 600;
         padding-left: 5%
     }
+    .navbar-default .navbar-nav>li>a{
+	    color:#f5f3ed;
+    }
     .campi-obbligatori,
     .label-font,
     .label-font-email,
