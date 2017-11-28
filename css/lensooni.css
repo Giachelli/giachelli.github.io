@@ -276,6 +276,18 @@ img::-moz-selection {
     background: 0 0
 }
 
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
 @media(max-width:767px) {
     header {
         background-image: url(../img/lensooni.001-min.jpg);
