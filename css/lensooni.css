@@ -347,8 +347,8 @@ img::-moz-selection {
     .stacco {
         padding-right: 20px
     }
-    .staccato{
-	    padding-top: 2%;
+    .staccato {
+        padding-top: 2%
     }
     .separator {
         background-color: #222;
@@ -360,8 +360,14 @@ img::-moz-selection {
         font-weight: 600;
         padding-left: 5%
     }
-    .navbar-default .navbar-nav>li>a{
-	    color:#f5f3ed;
+    .navbar-default .navbar-nav>li>a {
+        color: #f5f3ed
+    }
+    .copyright-class,
+    .segui-blog {
+        color: #fff;
+        font-family: Rajdhani, sans-serif;
+        font-weight: 500
     }
     .campi-obbligatori,
     .label-font,
@@ -375,18 +381,12 @@ img::-moz-selection {
         font-family: Rajdhani, sans-serif;
         font-weight: 500
     }
-    .segui-blog{
-	    font-family: Rajdhani, sans-serif;
-        font-weight: 500;
-        font-size: large;
-        color:white;
+    .segui-blog {
+        font-size: large
     }
-    .copyright-class{
-	    font-family: Rajdhani, sans-serif;
-        font-weight: 500;
-        font-size: x-small;
-        color:white;	    
-    }    
+    .copyright-class {
+        font-size: x-small
+    }
     .separator-char {
         font-family: Rajdhani, sans-serif;
         color: red;
@@ -471,6 +471,15 @@ img::-moz-selection {
     .btn-more-left {
         padding-left: 70%;
         padding-bottom: 10%
+    }
+    .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 200px;
+        overflow-x: visible;
+        -webkit-overflow-scrolling: touch;
+        border-top: 1px solid transparent;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
     }
     .write-inside-fase3-sotto {
         font-size: xx-large;
@@ -564,15 +573,15 @@ img::-moz-selection {
     }
     .navbar-custom.affix {
         background-color: #222;
-        padding: 0px 0
+        padding: 0
     }
     .navbar-custom.affix .navbar-brand {
         font-size: 2.5em
     }
-    .navbar-default .navbar-nav>li>a{
-	    color:#fff;
-	    font-family: Rajdhani, sans-serif;
-	    font-size: large;
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+        font-family: Rajdhani, sans-serif;
+        font-size: large
     }
     .weCan,
     .write-inside-header {
@@ -623,8 +632,7 @@ img::-moz-selection {
         background-image: url(../img/lensooni.006-min.jpg)
     }
     .fase6 {
-        background-image: url(../img/lensooni.007-min.jpg);
-/*         padding-bottom: 15% */
+        background-image: url(../img/lensooni.007-min.jpg)
     }
     .paddingLeft {
         padding-left: 8%
@@ -642,8 +650,8 @@ img::-moz-selection {
     .stacco {
         padding-top: 5%
     }
-    .staccato{
-	    padding-top: 2%;
+    .staccato {
+        padding-top: 2%
     }
     .stacco-fase2 {
         padding-top: 0
@@ -661,7 +669,9 @@ img::-moz-selection {
         color: #fff
     }
     .campi-obbligatori,
+    .copyright-class,
     .label-font,
+    .segui-blog,
     .write-inside,
     .write-inside-fase1,
     .write-inside-fase2,
@@ -671,17 +681,13 @@ img::-moz-selection {
         font-family: Rajdhani, sans-serif;
         font-weight: 500
     }
-    .segui-blog{
-	    font-family: Rajdhani, sans-serif;
-        font-weight: 500;
+    .segui-blog {
         font-size: large;
-        color:white;
+        color: #fff
     }
-    .copyright-class{
-	    font-family: Rajdhani, sans-serif;
-        font-weight: 500;
+    .copyright-class {
         font-size: small;
-        color:white;	    
+        color: #fff
     }
     .write-inside,
     .write-inside-fase1 {
@@ -817,15 +823,15 @@ img::-moz-selection {
     }
     .navbar-custom.affix {
         background-color: #222;
-        padding: 0px 0
+        padding: 0
     }
     .navbar-custom.affix .navbar-brand {
         font-size: 2.5em
     }
-    .navbar-default .navbar-nav>li>a{
-	    color:#fff;
-	    font-family: Rajdhani, sans-serif;
-	    font-size: large;
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+        font-family: Rajdhani, sans-serif;
+        font-size: large
     }
     .weCan,
     .write-inside-header {
@@ -876,8 +882,7 @@ img::-moz-selection {
         background-image: url(../img/lensooni.006-min.jpg)
     }
     .fase6 {
-        background-image: url(../img/lensooni.007-min.jpg);
-/*         padding-bottom: 15% */
+        background-image: url(../img/lensooni.007-min.jpg)
     }
     .paddingLeft {
         padding-left: 8%
@@ -895,8 +900,8 @@ img::-moz-selection {
     .stacco {
         padding-top: 5%
     }
-    .staccato{
-	    padding-top: 2%;
+    .staccato {
+        padding-top: 2%
     }
     .stacco-fase2 {
         padding-top: 0
@@ -914,7 +919,9 @@ img::-moz-selection {
         color: #fff
     }
     .campi-obbligatori,
+    .copyright-class,
     .label-font,
+    .segui-blog,
     .write-inside,
     .write-inside-fase1,
     .write-inside-fase2,
@@ -924,17 +931,13 @@ img::-moz-selection {
         font-family: Rajdhani, sans-serif;
         font-weight: 500
     }
-    .segui-blog{
-	    font-family: Rajdhani, sans-serif;
-        font-weight: 500;
+    .segui-blog {
         font-size: large;
-        color:white;
+        color: #fff
     }
-    .copyright-class{
-	    font-family: Rajdhani, sans-serif;
-        font-weight: 500;
+    .copyright-class {
         font-size: small;
-        color:white;	    
+        color: #fff
     }
     .write-inside,
     .write-inside-fase1 {
@@ -1041,7 +1044,6 @@ img::-moz-selection {
 }
 
 @media (min-width:1200px) {
-	 
     .navbar-custom {
         background-color: transparent;
         padding: 0;
@@ -1061,15 +1063,15 @@ img::-moz-selection {
     }
     .navbar-custom.affix {
         background-color: #222;
-        padding: 0px 0
+        padding: 0
     }
     .navbar-custom.affix .navbar-brand {
         font-size: 2.5em
     }
-    .navbar-default .navbar-nav>li>a{
-	    color:#fff;
-	    font-family: Rajdhani, sans-serif;
-	    font-size: large;
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+        font-family: Rajdhani, sans-serif;
+        font-size: large
     }
     .weCan,
     .write-inside-header {
@@ -1124,8 +1126,7 @@ img::-moz-selection {
         background-image: url(../img/lensooni.006-min.jpg)
     }
     .fase6 {
-        background-image: url(../img/lensooni.007-min.jpg);
-/*         padding-bottom: 15% */
+        background-image: url(../img/lensooni.007-min.jpg)
     }
     .paddingLeft {
         padding-left: 8%
@@ -1143,8 +1144,8 @@ img::-moz-selection {
     .stacco {
         padding-top: 5%
     }
-    .staccato{
-	    padding-top:2%;
+    .staccato {
+        padding-top: 2%
     }
     .stacco-fase2 {
         padding-top: 0
@@ -1162,7 +1163,9 @@ img::-moz-selection {
         color: #fff
     }
     .campi-obbligatori,
+    .copyright-class,
     .label-font,
+    .segui-blog,
     .write-inside,
     .write-inside-fase1,
     .write-inside-fase2,
@@ -1172,17 +1175,13 @@ img::-moz-selection {
         font-family: Rajdhani, sans-serif;
         font-weight: 500
     }
-    .segui-blog{
-	    font-family: Rajdhani, sans-serif;
-        font-weight: 500;
+    .segui-blog {
         font-size: large;
-        color:white;
+        color: #fff
     }
-    .copyright-class{
-	    font-family: Rajdhani, sans-serif;
-        font-weight: 500;
+    .copyright-class {
         font-size: small;
-        color:white;	    
+        color: #fff
     }
     .write-inside,
     .write-inside-fase1 {
@@ -1303,12 +1302,13 @@ section h3.section-subheading {
 
 @media (min-width:1900px) {
     .fase1_1200,
-    .header_1200 {
-        background-position: center center
-    }
-    .fase1_1200,
     .fase2_1200,
+    .fase3_1200,
+    .fase4_1200,
+    .fase5_1200,
+    .fase6_1200,
     .header_1200 {
+        background-position: center center;
         text-align: center;
         background-repeat: no-repeat
     }
@@ -1322,8 +1322,15 @@ section h3.section-subheading {
         -o-background-size: cover;
         color: #fff
     }
+    .fase1_1200,
+    .fase2_1200,
+    .fase3_1200,
+    .fase4_1200,
+    .fase5_1200,
+    .fase6_1200 {
+        background-attachment: fixed
+    }
     .fase1_1200 {
-        background-attachment: fixed;
         background-size: 100% 100%;
         -webkit-background-size: 100% 100%;
         -moz-background-size: 100% 100%;
@@ -1332,59 +1339,41 @@ section h3.section-subheading {
     }
     .fase2_1200,
     .fase3_1200 {
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: 100% 100%
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%
     }
     header .intro-text {
         padding-top: 37%;
         padding-bottom: 10%
     }
     .fase2_1200 {
-        background-image: url(../img/lensooni.003-min.jpg);
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%
+        background-image: url(../img/lensooni.003-min.jpg)
     }
     .fase3_1200 {
-        background-image: url(../img/lensooni.004-min.jpg);
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        text-align: center;
-        background-repeat: no-repeat
+        background-image: url(../img/lensooni.004-min.jpg)
     }
     .fase4_1200,
     .fase5_1200 {
         background-size: 100% 100%;
-        background-attachment: fixed;
-        background-position: center center;
-        text-align: center;
-        background-repeat: no-repeat
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%
     }
     .fase4_1200 {
-        background-image: url(../img/lensooni.005-min.jpg);
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%
+        background-image: url(../img/lensooni.005-min.jpg)
     }
     .fase5_1200 {
-        background-image: url(../img/lensooni.006-min.jpg);
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%
+        background-image: url(../img/lensooni.006-min.jpg)
     }
     .fase6_1200 {
         background-image: url(../img/lensooni.007-min.jpg);
         padding-bottom: 15%;
-        background-attachment: fixed;
-        background-position: center center;
         background-size: 100% 100%;
         -webkit-background-size: 100% 100%;
         -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        text-align: center;
-        background-repeat: no-repeat
+        -o-background-size: 100% 100%
     }
 }
 
