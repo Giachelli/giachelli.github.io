@@ -14,18 +14,30 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.5/angular-material.min.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700" rel="stylesheet" type='text/css'>
+    
+    <!-- CDN Angular e AngularMaterial -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-aria.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-messages.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.5/angular-material.min.js"></script>
+    
+    
+    <script type="text/javascript" src="js/index.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
     <!-- Theme CSS -->
-    <link href="css/lensooni.min.css" rel="stylesheet">
+    <link href="css/lensooni.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,12 +47,55 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" ng-app="subheaderBasicDemo" ng-controller="SubheaderAppCtrl">
+	
+	<div hide-lg hide-md hide-sm layout="row" flex="33" flex-sm="100" flex-xs="100" layout-align="space-between center" style="background-color: #424242;">
+			<img ng-src="img/lensooniIta-min.png" width="100px" height="30px"> 
+			<md-menu md-offset="0 -7">
+				<md-button aria-label="Open demo menu" class="md-icon-button fixed" ng-click="$mdMenu.open($event)">
+					<md-icon><i class="material-icons white">menu</i></md-icon>
+				</md-button>
+				<md-menu-content width="2">
+					<md-menu-item>
+						<a class="page-scroll" href="https://www.lensooni.it">Home</a>
+					</md-menu-item>
+					<md-menu-item>
+						<a class="page-scroll" href="https://www.lensooni.it/ricerca-posto">Ricerca posto</a>
+					</md-menu-item>
+					<md-menu-item>
+						<a class="page-scroll" href="https://www.lensooni.it/richiesta-posto">Richiedi ospitalita</a>
+					</md-menu-item>
+					<md-menu-item>
+						<a class="page-scroll" href="http://www.lensooni.it/blog/">Blog</a>
+					</md-menu-item>
+				</md-menu-content>
+			</md-menu>
+      	</div>
+      	
+      	<md-toolbar hide-xs class="md-menu-toolbar" style="background-color: #424242;">
+			<div class="md-toolbar-tools" layout="row" layout-align="space-between center">
+				<img ng-src="img/lensooniIta-min.png" width="100px" height="30px">
+				<md-menu-bar>
+						<button>
+							<a class="page-scroll" href="https://www.lensooni.it">Home</a>
+						</button>
+						<button>
+							<a class="page-scroll" href="https://www.lensooni.it/ricerca-posto">Ricerca posto</a>
+						</button>
+						<button>
+							<a class="page-scroll" href="https://www.lensooni.it/richiesta-posto">Richiedi ospitalita</a>
+						</button>
+						<button>
+							<a class="page-scroll" href="http://www.lensooni.it/blog/">Blog</a>
+						</button>
+      			</md-menu-bar>
+			</div>
+	  	</md-toolbar>
 
     <!-- Navigation -->
+<!--
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
@@ -48,7 +103,6 @@
                 <a class="navbar-brand page-scroll" href="#page-top"> <img src="img/lensooniIta.png" width="100px" height="30px"> </a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -69,10 +123,9 @@
                 </ul>
             </div>
             
-                       <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
+-->
 
     <!-- Header -->
     <header>
